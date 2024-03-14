@@ -59,6 +59,15 @@ class widget_baru extends StatelessWidget {
             fit: BoxFit.cover),
             const SizedBox(
               width: 10,
+            ),
+            Icon(Icons.attach_file),
+            Text(
+              text, 
+              style: const TextStyle(color: Colors.red, fontWeight: FontWeight.bold),   
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: ElevatedButton(onPressed: handleButton, child: const Text("Klik Saya")),
             )
           ],
         ),
