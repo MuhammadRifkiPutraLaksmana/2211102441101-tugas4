@@ -63,7 +63,7 @@ class widget_baru extends StatelessWidget {
             Icon(Icons.attach_file),
             Text(
               text, 
-              style: const TextStyle(color: Colors.red, fontWeight: FontWeight.bold),   
+              style: const TextStyle(color: Colors.yellow, fontWeight: FontWeight.bold),   
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
